@@ -1,0 +1,76 @@
+.banner {
+  background-color: #1F2937;
+  height: 40vh;
+  width: auto;
+  padding: 40px;
+}
+
+.banner h1 {
+  color: #F9FAF8;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.banner p {
+  font-size: 18px;
+  color: #E5E7EB;
+  font-family: 'Montserrat';
+  font-weight: normal;
+}
+
+.container {
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.banner-container {
+  display: flex;
+}
+
+.navbar {
+  height: 8vh;
+  width: auto;
+  background-color: #1F2937;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-logo {
+  height: auto;
+  width: 50%;
+}
+
+.links {
+  display: flex;
+  height: auto;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.link {
+  color: #F9FAF8;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: Italic;
+
+}
+
+#first-img {
+  height: 75px;
+  width: auto;
+}
+
+#main-image {
+  height: 300px;
+  width: 920px;
+  padding-right: 150px;
+}
