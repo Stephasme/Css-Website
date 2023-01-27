@@ -1,0 +1,18 @@
+.link-container {
+  height: 80vh;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link-image {
+  height: 500px;
+  width: auto;
+  padding: 50px;
+  display: flex;
+}
+
+#linked-image {
+  border-radius: 15px;
+}
