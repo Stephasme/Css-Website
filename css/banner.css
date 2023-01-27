@@ -39,10 +39,11 @@ margin-right: 100px;
 }
 
 .navbar-container {
+  background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1F2937;
+  height: 12vh;
 }
 
 #header-logo {
