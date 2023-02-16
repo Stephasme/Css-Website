@@ -1,0 +1,62 @@
+@import url(style.css);
+
+.about-container {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #E5E7EB;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  align-items: center;
+}
+
+.about-container .title {
+  flex-grow: 1;
+  align-self: flex-start;
+  text-align: center;
+  order: 2;
+  padding-bottom: 40px;
+}
+
+.about-container h3 {
+  padding-top: 50px;
+}
+
+.about-container-inner {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+
+.about-container-inner p {
+  padding-top: 20px;
+  max-width: 470px;
+}
+
+.about-container-inner h3:nth-child(3) {
+  padding-top: 20px;
+}
+
+@media all and (max-width: 1300px) {
+    .circuit {
+      flex-flow: column wrap;
+      align-content: center;
+    }
+    .circuit .title {
+      order: -1;
+      align-self: center;
+    }
+    .prices .container {
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+    }
+
+}
+
+@media all and (max-width: 1000px) {
+    .card-item {
+      margin-top: 15px;
+    }
+}
